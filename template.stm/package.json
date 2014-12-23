@@ -1,14 +1,14 @@
 {
-  "name" : "squire-streamer-name",
-  "author": "me",
+  "name" : "Pordede-Streamer-Spanish",
+  "author": "rbaggio",
   "icon": "",
   "homepage": "",
   "version" : "0.0.1",
-  "description"  : "Squire Streamer for X service",
-  "homepage": "https://github.com/user/repo-name",
+  "description"  : "Squire Streamer for Pordede Spanish",
+  "homepage": "https://github.com/me/repo-name",
   "repository": {
       "type": "git",
-      "url": "https://github.com/user/repo-name"
+      "url": "https://github.com/me/repo-name"
   },
   "license": "MIT",
   "keywords": ["squire", "streamer", "squire streamer"],
