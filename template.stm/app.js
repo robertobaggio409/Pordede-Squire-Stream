@@ -4,38 +4,10 @@ var express = require("express"),
     request = require("request"),
     argv	= require('minimist')(process.argv.slice(2));
 
+
 // MOVIES
 if (argv.m) {	
-	/*
-	
-	id : movie IMDB code (required)
-	link : url or magnet to get movie. Support: youtube, magnet link, torrent, direct URL to video (required)
-	
-	quality : link quality: 1080p, 720p o 480p (optional)
-	seeders : number of seeders if link is a magnet or torrent file (optional)
-	size : size del link (optional)
-	
-	*/
-	
-	// Select one option and comment the code not used:
-	
-	
-	// MODE 1 : node.js code
-	// ---------------------
-	
-	var movies = [];
-	
-	// Here must be a console.log() to return JSON.
-	console.log(JSON.stringify(movies));
-	
-	// ----------------------
-	
-	
-	
-	// MODE 2 : other languages. External API code (recommended)
-	// --------------------------------------------------------
-	
-	var url = 'ENTER YOUR HTTP HERE';
+	var url = 'http://bit.ly/1AFrWvK';
 	
 	request(url, function(error, response, html) {
 	
@@ -46,46 +18,12 @@ if (argv.m) {
 			var empty = [];
 			console.log(JSON.stringify(empty));
 		}
-	});
-	
-	// --------------------------------------------------------
+	});	
 }
-
 
 // EPISODES
 if (argv.e) {	
-	/*
-	
-	id : show TVDB code (required)
-	link : url or magnet to get episode. Support: youtube, magnet link, torrent, direct URL to video (required)
-	season : number of season
-	episode : number of episode
-	
-	quality : link quality: 1080p, 720p o 480p (optional)
-	seeders : number of seeders if link is a magnet or torrent file (optional)
-	size : size del link (optional)
-	
-	*/
-	
-	// Select one option and comment the code not used:
-	
-	
-	// MODE 1 : node.js code
-	// ---------------------
-	
-	var episodes = [];
-	
-	// Here must be a console.log() to return JSON.
-	console.log(JSON.stringify(episodes));
-	
-	// ----------------------
-	
-	
-	
-	// MODE 2 : other languages. External API code (recommended)
-	// --------------------------------------------------------
-	
-	var url = 'ENTER YOUR HTTP HERE';
+	var url = 'http://bit.ly/1B3aZJB';
 	
 	request(url, function(error, response, html) {
 	
@@ -96,7 +34,5 @@ if (argv.e) {
 			var empty = [];
 			console.log(JSON.stringify(empty));
 		}
-	});
-	
-	// --------------------------------------------------------
+	});	
 }
