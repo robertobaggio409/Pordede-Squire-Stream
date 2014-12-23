@@ -5,10 +5,10 @@
   "homepage": "",
   "version" : "0.0.1",
   "description"  : "Squire Streamer for Pordede Spanish",
-  "homepage": "https://github.com/me/repo-name",
+  "homepage": "https://github.com/robertobaggio409/Pordede-Squire-Stream",
   "repository": {
       "type": "git",
-      "url": "https://github.com/me/repo-name"
+      "url": "https://github.com/robertobaggio409/Pordede-Squire-Stream"
   },
   "license": "MIT",
   "keywords": ["squire", "streamer", "squire streamer"],
